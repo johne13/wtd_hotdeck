@@ -1,0 +1,4 @@
+********************************************** stata.toc
+v 1
+d hotdeck using sample weights
+p wtd_hotdeck
