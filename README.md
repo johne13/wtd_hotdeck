@@ -15,10 +15,9 @@ Just copy the ado and sthlp files to you standard ado directory, or your Stata w
 
 wtd_hotdeck -- A hotdeck (or statistical match) imputation that selects donor rows in proportion to their survey or sample weights
 
-## Syntax
+Syntax
 
     wtd_hotdeck varlist(min=1) [, options]
-    
     
     options               Description
     --------------------------------------------------------------------------------------------------------------------------
