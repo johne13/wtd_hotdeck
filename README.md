@@ -2,22 +2,24 @@
 A hotdeck (statistical match) imputation that selects donors in proportion to sample weights.  Contents of the help file are below, or refer to the help file itself (wtd_hotdeck.sthlp)
 
 ## Quick start guide
-Just copy the ado and sthlp files to you standard ado directory, or any working directory
+Just copy the ado and sthlp files to you standard ado directory, or your Stata working directory
 
 ## Files in this repository
-<b>wtd_hotdeck.ado</b> -- the actual ado file
+<b>wtd_hotdeck.ado</b> -- the program itself
 
 <b>wtd_hotdeck.sthlp</b> -- the help file, in Stata's SMCL format
 
-<b>help_example.do</b> -- this is a similar to the example in the help file, but expanded to do some barebones testing of the ado file syntax and results
+<b>help_example.do</b> -- this is similar to the example in the help file, but expanded to do some barebones testing of the ado file syntax and results
 
 ## The Stata help file:
 
 wtd_hotdeck -- A hotdeck (or statistical match) imputation that selects donor rows in proportion to their survey or sample weights
 
-Syntax
-    wtd_hotdeck varlist(min=1) [, options]
+## Syntax
 
+    wtd_hotdeck varlist(min=1) [, options]
+    
+    
     options               Description
     --------------------------------------------------------------------------------------------------------------------------
     Main
